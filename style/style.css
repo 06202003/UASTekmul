@@ -124,7 +124,7 @@ body::-webkit-scrollbar-thumb {
   max-height: 100px;
 }
 .text-content {
-  height: 100vh;
+  height: auto;
 }
 
 /* Carousel */
@@ -141,8 +141,10 @@ body {
   height: 120px;
   border: solid 1px #e8e8e8;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 75px;
+  padding-right: 75px;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
   padding-bottom: 130px;
   background: #fff;
 }
@@ -199,4 +201,8 @@ body {
   max-width: 100px;
   max-height: 75px;
   filter: grayscale(100%);
+}
+
+.card-ling {
+  text-decoration: none;
 }
