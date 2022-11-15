@@ -8,14 +8,30 @@
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="style/mediaquery.css" />
     <!-- CSS -->
+    <!-- Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+    <!-- Carousel -->
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet" />
     <!-- Font -->
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- FontAwesome -->
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
     <!-- Bootstrap -->
+    <!-- Jquery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Jquery -->
   </head>
   <body>
     <!-- Hero -->
@@ -23,9 +39,11 @@
       <!-- Navbar -->
       <nav class="navbar transparent navbar-inverse navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand text-white" href="#">
-            <img src="img/Yehezkiel.png" class="logo-size" alt="" />
-          </a>
+          <div class="row d-flex justify-content-center">
+            <a class="navbar-brand text-white" href="#">
+              <img src="img/Yehezkiel.png" class="logo-size" alt="" />
+            </a>
+          </div>
           <h3 class="text-white">Tutorial Bersama YZ</h3>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -49,7 +67,7 @@
         </div>
       </nav>
       <!-- Navbar -->
-      <div class="container text-white">
+      <!-- <div class="container text-white">
         <div class="row d-flex justify-content-center cont-down">
           <div class="col-md-8 text-start align-self-center">
             <h1 class="marg-judul mari">Mulai Belajar Bootstrap</h1>
@@ -59,7 +77,27 @@
             </p>
             <a class="button-learn" href="#content">Belajar lebih lanjut</a>
           </div>
-          <div class="col-md-4 align-self-center"><img src="img/bootstrap.png" class="logo-bs" alt="" /></div>
+          <div class="col-md-4"><img src="img/bootstrap.png" class="logo-bs" alt="" /></div>
+        </div>
+      </div> -->
+      <div class="container">
+        
+        <div class="row d-flex justify-content-center mt-5 pb-3 mx-auto">
+          <div class=" col-lg-8 text-start align-self-center text-white mt-5 mb-3  order-sm-first">
+            <h1 class="marg-judul mari">Mulai Belajar Bootstrap</h1>
+            <h3 class="marg-judul membuat">Membuat portofolio sederhana menggunakan Bootstrap 5</h3>
+            <p class="marg-judul kali">
+              Kali ini saya akan membuat tutorial bagaimana membuat sebuah website sederhana menggunakan bootstrap 5. Tema kali ini adalah membuat portofolio sederhana. Portofolio ini berguna agar kita dapat dikenal di internet
+            </p>
+            <a class="button-learn" href="#content">Belajar lebih lanjut</a>
+          </div>
+          <div class="col-lg-4 col-sm-4  mt-5 mb-3">
+            <img src="img/bootstrap.png" class="logo-bs" alt="" />
+          </div>
+      </div>
+  
+       
+          
         </div>
       </div>
     </section>
@@ -68,10 +106,68 @@
     <!-- Video -->
     <section class="content" id="content">
       <div class="container">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti odit rerum nobis eum sed repellendus, deserunt repellat consequuntur enim iste hic necessitatibus recusandae eos aliquam vel inventore? Earum, numquam harum?
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-12 my-5">
+            <h1 class="text-center pb-5">Video Tutorial</h1>
+            <iframe
+              class="ifr-size"
+              src="https://www.youtube.com/embed/GaOcTWncnBk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
       </div>
     </section>
     <!-- Video -->
+
+    <!-- Materi -->
+    <section class="text-content">
+      <div class="container">
+        <h1 class="my-4">Persiapan Sebelum <i>Coding</i></h1>
+        <div class="row py-2 mx-2 d-flex justify-content-center border rounded bg-danger">
+          <div class="col-md-1">
+            <img src="img/warning.png" class="warn-size" alt="" />
+          </div>
+          <div class="col-md-11 align-self-center text-white">
+            <h5>Sebelum mempelajari lebih lanjut, diharapkan untuk mempelajari struktur HTML dan CSS lebih lanjut</h5>
+          </div>
+        </div>
+        <div class="brands">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="brands_slider_container">
+                  <div class="owl-carousel owl-theme brands_slider pt-4">
+                    <div class="owl-item px-4">
+                      <div class="brands_item d-flex flex-column justify-content-center"><img class="brand-size" src="img/html.svg" alt="" /></div>
+                    </div>
+                    <div class="owl-item px-4">
+                      <div class="brands_item d-flex flex-column justify-content-center"><img class="brand-size" src="img/css.png" alt="" /></div>
+                    </div>
+                    <div class="owl-item px-4">
+                      <div class="brands_item d-flex flex-column justify-content-center"><img class="brand-size" src="img/javascript.svg" alt="" /></div>
+                    </div>
+                    <div class="owl-item px-4">
+                      <div class="brands_item d-flex flex-column justify-content-center"><img class="brand-size" src="img/bootstrap.svg" alt="" /></div>
+                    </div>
+                    <div class="owl-item px-4">
+                      <div class="brands_item d-flex flex-column justify-content-center"><img class="brand-size" src="img/jquery.png" alt="" /></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Materi -->
+
+    <script src="script/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <!-- Vanta -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
