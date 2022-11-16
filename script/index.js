@@ -71,3 +71,12 @@ function CopyToClipboard(containerid) {
     document.execCommand('copy');
   }
 }
+
+const toastTrigger = document.getElementById('button1');
+const toastLiveExample = document.getElementById('liveToast');
+if (toastTrigger) {
+  toastTrigger.addEventListener('click', () => {
+    const toast = new bootstrap.Toast(toastLiveExample);
+    toast.show();
+  });
+}
