@@ -26,4 +26,10 @@
   .kali {
     font-size: 0.6rem;
   }
+  .disnone {
+    display: none;
+  }
+  .ahaidede {
+    float: right;
+  }
 }
