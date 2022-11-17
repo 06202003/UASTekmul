@@ -36,7 +36,7 @@
   </head>
   <body>
     <!-- Hero -->
-    <section class="bg-hero" id="bg-hero">
+    <section class="bg-hero parallax" id="bg-hero">
       <!-- Navbar -->
       <nav class="navbar transparent navbar-inverse navbar-expand-lg">
         <div class="container-fluid">
@@ -75,7 +75,8 @@
             <h1 class="marg-judul mari">Mulai Belajar Bootstrap</h1>
             <h3 class="marg-judul membuat">Membuat portofolio sederhana menggunakan Bootstrap 5</h3>
             <p class="marg-judul kali">
-              Kali ini saya akan membuat tutorial bagaimana membuat sebuah website sederhana menggunakan bootstrap 5. Tema kali ini adalah membuat portofolio sederhana. Portofolio ini berguna agar kita dapat dikenal di internet
+              Kesempatan kali ini saya akan membuat tutorial bagaimana membuat sebuah website sederhana menggunakan Bootstrap 5. Tema kali ini adalah membuat portofolio sederhana. Portofolio berfungsi untuk menunjukkan hasil karya, skill,
+              pendidikan, pengalaman berorganisasi, dan pengalaman kerja kita.
             </p>
             <a class="button-learn" href="#content">Belajar lebih lanjut</a>
           </div>
@@ -89,6 +90,9 @@
 
     <!-- Video -->
     <section class="content" id="content">
+      <a class="btn btn-primary bottom-bawah buttop border rounded-5" href="#">
+        <div class="arrow-up"></div>
+      </a>
       <div class="container">
         <div class="row d-flex justify-content-center">
           <div class="col-md-12 my-5">
@@ -123,9 +127,9 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h5 style="letter-spacing: 0.1em">
-                Kita tahu bahwa Bootstrap adalah framework CSS yang banyak sekali di pakai untuk design website. Bootstrap memberikan kemudahan kepada penggunaanya bersamaan dengan desain bawaan yang menarik. Kesempatan kali ini saya akan
-                membagikan tutorial cara membuat portofolio sederhana dengan Bootstrap. Langsung saja kita praktikan ya teman teman.
+              <h5 style="letter-spacing: 0.5px">
+                Kita tahu bahwa Bootstrap adalah framework CSS yang banyak sekali di pakai untuk design website. Bootstrap memberikan kemudahan kepada penggunaanya bersamaan dengan desain bawaan yang menarik. Pada kesempatan kali ini saya
+                akan membagikan tutorial cara membuat portofolio sederhana dengan Bootstrap.
               </h5>
             </div>
           </div>
@@ -183,30 +187,50 @@
             <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Accordion Item #1</button>
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Apa itu Bootstrap?</button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  <div class="accordion-body">
+                    <p>
+                      Bootstrap adalah framework HTML, CSS, dan JavaScript yang berfungsi untuk mendesain website responsive dengan cepat dan mudah. Framework open source ini diciptakan pada tahun 2011 oleh Mark Otto dan Jacob Thornton dari
+                      Twitter. Itulah kenapa dulunya Bootstrap dinamakan Twitter Blueprint.
+                    </p>
+                  </div>
                 </div>
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Accordion Item #2</button>
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Fungsi Bootstrap</button>
                 </h2>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">
-                    Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.
+                    <p>Kegunaan Bootstrap dalam pengembangan website</p>
+                    <ul>
+                      <li>Menciptakan website Mobile Friendly</li>
+                      <li>Memudahkan resize gambar</li>
+                      <li>Menambahkan elemen website tanpa ribet</li>
+                      <li>Membuat website lebih interaktif</li>
+                    </ul>
                   </div>
                 </div>
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Accordion Item #3</button>
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Kelebihan bootstrap</button>
                 </h2>
                 <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">
-                    Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but
-                    just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.
+                    <p>Beberapa kelebihan Bootstrap yang membuatnya menjadi salah satu framework terpopuler di dunia adalah:</p>
+                    <ul>
+                      <li>Ramah untuk pemula</li>
+                      <li><i>Grid System</i> yang canggih</li>
+                      <li>Kompabilitas dengan <i>web browser</i> baru</li>
+                      <li>Bersifat <i>open source</i></li>
+                      <li>Kebebasan kostumisasi</li>
+                      <li>Rutin diperbarui</li>
+                      <li>Tersedia dokumentasi lengkap</li>
+                      <li>Memiliki komunitas aktif yang lengkap</li>
+                    </ul>
                   </div>
                 </div>
               </div>
