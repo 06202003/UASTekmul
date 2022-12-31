@@ -505,13 +505,16 @@ samp {
     height: auto;
   }
   .judul_awal {
-    font-size: 2em;
+    font-size: 3em;
+    text-align: center;
   }
   .jelas {
     font-size: 0.75em;
+    text-align: center;
   }
   .judul-tengah {
     font-size: 1.25em;
+    text-align: center;
   }
   .button-lanjut {
     display: inline-block;
