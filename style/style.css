@@ -421,8 +421,8 @@ samp {
   border: solid 2px black;
   border-radius: 15px;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-left: 0px;
+  padding-right: 0px;
   margin-left: -0.75rem;
   margin-right: -0.75rem;
   padding-bottom: 130px;
@@ -481,4 +481,115 @@ samp {
   max-width: 100px;
   max-height: 75px;
   filter: grayscale(100%);
+}
+.logo-size {
+  height: 50px;
+  width: 50px;
+  margin-right: 0;
+}
+.judul-tengah {
+  font-size: 1.75em;
+}
+.gelombang {
+  background-color: whitesmoke;
+  margin-top: -6rem;
+  margin-bottom: -2rem;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .logo-size {
+    height: 40px;
+    width: 40px;
+    margin-right: 0;
+  }
+  .hehe {
+    height: auto;
+  }
+  .judul_awal {
+    font-size: 2em;
+  }
+  .jelas {
+    font-size: 0.75em;
+  }
+  .judul-tengah {
+    font-size: 1.25em;
+  }
+  .button-lanjut {
+    display: inline-block;
+    padding: 12px 24px;
+    border: 2px solid gray;
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    font-size: 12px;
+    color: black;
+    z-index: 1;
+    background-color: #ffd4b1;
+    text-decoration: none;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    width: 100%;
+    text-align: center;
+  }
+  .vid {
+    height: auto;
+    background-color: whitesmoke;
+  }
+  .vid-ukur {
+    width: 100%;
+    height: 200px;
+    max-width: 100vw;
+  }
+  .gelombang {
+    background-color: whitesmoke;
+    margin-top: 0rem;
+    margin-bottom: -2rem;
+  }
+  .peringatan {
+    background-color: red;
+    width: 100%;
+    height: auto;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border-radius: 15px;
+  }
+  .peringat {
+    font-size: 1em;
+    color: white;
+    text-align: center;
+  }
+  .justify {
+    text-align: justify;
+    font-size: 1em;
+    padding-top: 1em;
+  }
+  .nankanan {
+    float: right;
+  }
+  .bord-cont {
+    border: 2px solid black;
+    border-radius: 15px;
+  }
+  .test {
+    font-size: 0.5em;
+  }
+  .judul {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  .brands_slider_container {
+    height: 120px;
+    border: solid 2px black;
+    border-radius: 15px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    padding-bottom: 130px;
+    background: #fff;
+  }
 }
