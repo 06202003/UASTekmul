@@ -14,6 +14,10 @@
   height: 100vh;
   background-color: skyblue;
 }
+.hero1 {
+  height: 100vh;
+  background-color: skyblue;
+}
 
 .ukur {
   height: 80vh;
@@ -162,7 +166,6 @@
 }
 .container-contact {
   height: auto;
-  background-color: whitesmoke;
   display: flex;
   align-items: center;
   margin-top: -1.5rem;
@@ -548,8 +551,17 @@ samp {
     width: 40px;
     margin-right: 0;
   }
+  .exp-title {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
   .hero {
     height: 120vh;
+    background-color: skyblue;
+  }
+  .hero1 {
+    height: auto;
     background-color: skyblue;
   }
 
@@ -646,5 +658,25 @@ samp {
     margin-right: -0.75rem;
     padding-bottom: 130px;
     background: #fff;
+  }
+  .contact-maps {
+    max-width: 400px;
+    width: 100%;
+    border: 0;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+  }
+  .offcanvas-identity {
+    display: none;
+  }
+  .container-contact {
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    padding-bottom: 6.5rem;
   }
 }
