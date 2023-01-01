@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tutorial YZ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <!-- Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+    <!-- Jquery -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <section class="hero" id="hero">
+      <section class="navi">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <div class="row">
+              <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/Yehezkiel.png" alt="Logo" class="logo-size" />
+                <div class="ps-3 mt-1">
+                  <h4>Tutorial Bersama YZ</h4>
+                </div>
+              </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"><h5>Home</h5></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#videotutor"><h5>Video</h5></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#penjelasan"><h5>Penjelasan</h5></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><h5>Contact Me</h5></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <div class="container">
+        <h1 class="exp-title">Contact Me!</h1>
+        <hr  class="contact-hr mx-auto" >
+        <div class="row">
+          <div class="col-lg-6  align-self-center justify-content-md-center"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-mirror="true"
+          data-aos-once="false">
+            <iframe class="contact-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31688.293133869793!2d107.52361194972042!3d-6.886214575303446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e43e8ebf7617%3A0x501e8f1fc2974e0!2sCimahi%2C%20Cimahi%20Tengah%2C%20Cimahi%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1656043129828!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>       
+         </div>
+          <div class="col-lg-6"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-mirror="true"
+          data-aos-once="false">
+            <form id="myForm" name="NewPort">
+              <div class="mb-3">
+                <label for="Email" class="form-label " >Alamat Email</label>
+                <input type="email" class="form-control " placeholder="Tulis email anda"  name="email" required>
+                <div id="emailHelp" class="form-text "> &nbsp; Saya tidak akan menyebarkan email anda</div>
+              </div>
+              <div class="mb-3">
+                <label for="Name" class="form-label ">Nama Lengkap</label>
+                <input type="text" class="form-control " id="name" name="name" placeholder="Tulis nama lengkap anda" required>
+              </div>
+              <div class="mb-3">
+                <label for="country" class="form-label ">Negara</label>
+                <select id="country" class="form-select " name="country" class="mb-3" required>
+                  <option value="">--- Pilih Negara ---</option>
+                  <option value="Indonesia">Indonesia</option>
+                  <option value="Malaysia">Malaysia</option>
+                  <option value="Singapura">Singapura</option>
+                  <option value="Australia">Australia</option>
+                  <option value="Negara Lain">Negara Lain</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="massages1" class="form-label ">Tulis Pesan</label>
+                <textarea class="form-control contact-textarea " id="massages1" rows="5" name="message" placeholder="Tulis pesan yang akan anda kirim" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-outline-dark btn-lg" id="contact-button" >
+                Kirim
+              </button>
+                
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave -->
+    <svg class="wave-top" viewBox="0 0 1200 250" style="background-color: #1f1209; margin-top: -4rem; margin-bottom: -8rem; padding-bottom: 10rem">
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M0 108.306L50 114.323C100 120.34 200 132.374 300 168.476C400 204.578 500 264.749 600 246.698C700 228.647 800 132.374 900 108.306C1000 84.2382 1100 132.374 1150 156.442L1200 180.51V-8.5451e-06H1150C1100 -8.5451e-06 1000 -8.5451e-06 900 -8.5451e-06C800 -8.5451e-06 700 -8.5451e-06 600 -8.5451e-06C500 -8.5451e-06 400 -8.5451e-06 300 -8.5451e-06C200 -8.5451e-06 100 -8.5451e-06 50 -8.5451e-06H0V108.306Z"
+          fill="skyblue"
+        />
+      </svg>
+      <!-- Wave -->
+
+      <footer class="text-center text-white">
+        <!-- Grid container -->
+        <div class="container pt-1">
+          <!-- Section: Social media -->
+          <section class="mb-1">
+            <!-- Discord -->
+            <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://discordapp.com/users/705312106488135681" target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-discord"></i></a>
+            <!-- Google -->
+            <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=yehezkieldavid2006@gmail.com&tf=1" target="_blank" role="button" data-mdb-ripple-color="dark"
+              ><i class="fab fa-google"></i
+            ></a>
+            <!-- Instagram -->
+            <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://www.instagram.com/syntax._error/" target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+            <!-- Linkedin -->
+            <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://www.linkedin.com/in/yehezkiel-david-setiawan" target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+            <!-- Github -->
+            <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://github.com/CriticalSyntaxError" target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center text-white pb-2" style="background-color: #1f1209; font-size: 16px; line-height: 1">
+          <h5 id="quotes" style="padding-top: 1rem"></h5>
+          <p id="author" style="padding-bottom: 1rem"></p>
+          <p>© 2022 Copyright : Yehezkiel David Setiawan</p>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </section>
+
+     <!-- Contact Modal -->
+     <div class="modal fade" id="contact-thx" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Terima Kasih</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="contact-modal-thx" src="img/thx.gif">
+              <h4 class="contact-modal-h4">Pesan anda telah diterima oleh sistem, pesan akan dibalas secepatnya.</h4>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-dark btn-lg" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contact Modal -->
+
+    <script src="script/anime.min.js"></script>
+    <script src="script/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- Vanta Back -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+      VANTA.BIRDS({
+        el: '#hero',
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        backgroundColor: 0x87ceeb,
+        birdSize: 1.0,
+        separation: 100.0,
+        alignment: 40.0,
+        cohesion: 30.0,
+        quantity: 3.0,
+      });
+    </script>
+    <script>
+        const form1 = document.getElementById('myForm');
+      $('#myForm').on('submit', function (e) {
+        e.preventDefault();
+        $('#contact-thx').modal('show');
+      });
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzcqX0Jt4E6TYW3NV5KTVJ1O2rOGzzwrG1BtxAtESfelEZQC1sZR3KjFQQYqraRNlSSog/exec'
+        const form = document.forms['NewPort']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+          form1.reset();
+        })
+      </script>
+  </body>
+</html>
